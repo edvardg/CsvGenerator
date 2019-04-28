@@ -58,7 +58,7 @@ provider:
 
 functions:
   generateCSV:
-    handler: handler.generateCSV
+    handler: api/generate.generateCSV
     events:
       - http:
           path: generate
